@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Human"]/recipes</xpath>
+    <value>
+      <li>LuluInspirationChip_RecipeInstall</li>
+    </value>
+  </Operation>
+</Patch>

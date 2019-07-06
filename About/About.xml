@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ModMetaData>
+  <name>Lulu's Inspiration Chip</name>
+  <author>LoonyLadle</author>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
+  <url>https://ludeon.com/forums/index.php?topic=49129</url>
+  <description>Adds a brain implant that triggers more frequent inspirations.</description>
+</ModMetaData>
