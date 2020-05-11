@@ -22,7 +22,7 @@
 		<label>inspiration chip</label>
 		<labelNoun>inspiration chip</labelNoun>
 		<description>An installed inspiration chip implant.</description>
-		<descriptionHyperlinks><ThingDef>Joywire</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks><ThingDef>LuluInspirationChip_Thing</ThingDef></descriptionHyperlinks>
 		<stages>
 			<li>
 				<statOffsets>
