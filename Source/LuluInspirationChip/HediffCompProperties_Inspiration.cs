@@ -5,12 +5,12 @@ using Verse;
 
 namespace LoonyLadle.InspirationChip
 {
-   public class HediffCompProperties_Inspiration : HediffCompProperties
-   {
-      public HediffCompProperties_Inspiration() => compClass = typeof(HediffComp_Inspiration);
+	public class HediffCompProperties_Inspiration : HediffCompProperties
+	{
+		public HediffCompProperties_Inspiration() => compClass = typeof(HediffComp_Inspiration);
 
-      public InspirationDef inspirationDef;
-      public float minDays;
-      public float maxDays;
-   }
+		public InspirationDef inspirationDef;
+		public float minDays;
+		public float maxDays;
+	}
 }
