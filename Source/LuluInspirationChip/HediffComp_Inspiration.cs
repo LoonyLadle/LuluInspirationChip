@@ -25,7 +25,9 @@ namespace LoonyLadle.InspirationChip
 		{
 			if (--ticksToInspire <= 0)
 			{
-				Pawn.mindState.inspirationHandler.TryStartInspiration_NewTemp(Props.inspirationDef ?? DefDatabase<InspirationDef>.AllDefsListForReading.Where(x => x.Worker.InspirationCanOccur(Pawn)).RandomElementByWeightWithFallback(x => x.Worker.CommonalityFor(Pawn)));
+				InspirationDef inspiration = Props.inspirationDef ?? DefDatabase<InspirationDef>.AllDefs.Where(x => x.Worker.InspirationCanOccur(Pawn)).RandomElementByWeightWithFallback(x => x.Worker.CommonalityFor(Pawn));
+				TaggedString reason = "LuluInspirationChip_Reason".Translate(Pawn.Named("PAWN"), parent.Named("HEDIFF"));
+				Pawn.mindState.inspirationHandler.TryStartInspiration_NewTemp(inspiration, reason);
 				ResetTicksToInspire();
 			}
 		}
